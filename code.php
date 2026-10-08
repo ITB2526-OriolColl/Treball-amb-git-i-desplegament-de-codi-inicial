@@ -12,7 +12,7 @@ app/
 *** DB.PHP ***
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -21,6 +21,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Connexió fallida: " . $conn->connect_error);
+}
 ?>
 AP Projecte ASIXc2Codi en PHP
 
@@ -36,7 +37,7 @@ app/
 *** DB.PHP ***
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -176,7 +177,7 @@ exit;
 
 *** Script de Mysql per crear la BBDD ***
 
-CREATE DATABASE crud_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci Where false;
+CREATE DATABASE crud_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 USE crud_db;
 
@@ -388,7 +389,7 @@ app/
 *** DB.PHP ***
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -397,6 +398,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Connexió fallida: " . $conn->connect_error);
+}
 ?>
 AP Projecte ASIXc2Codi en PHP
 
@@ -412,7 +414,7 @@ app/
 *** DB.PHP ***
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -453,7 +455,7 @@ app/
 *** DB.PHP ***
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -477,7 +479,7 @@ app/
 *** DB.PHP ***
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -829,7 +831,7 @@ app/
 *** DB.PHP ***
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -838,6 +840,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Connexió fallida: " . $conn->connect_error);
+}
 ?>
 AP Projecte ASIXc2Codi en PHP
 
@@ -853,7 +856,7 @@ app/
 *** DB.PHP ***
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -904,7 +907,7 @@ app/
 *** DB.PHP ***
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -913,6 +916,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Connexió fallida: " . $conn->connect_error);
+}
 ?>
 AP Projecte ASIXc2Codi en PHP
 
@@ -928,7 +932,7 @@ app/
 *** DB.PHP ***
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -1282,7 +1286,7 @@ Personal access token
 
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
@@ -1306,7 +1310,7 @@ app/
 *** DB.PHP ***
 
 <?php
-$servername = "locahost";
+$servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "crud_db";
